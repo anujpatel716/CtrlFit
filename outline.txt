@@ -4,25 +4,53 @@ Main Things:
       - should be able to have 5 to 10 people at a call simultaneously
       - User side: instructor's screen should be put on bigger display
       - Instructor side: the users window should be bigger on their screens
+          - should be able to click and full screen on one of the users
+      - small chat box, agenda tab on the side (set up by instructor)
 
   b) Basic website (doesn't need to be aesthetically pleasing initially)
-      
+
       - different pages to include:
         i. Home Page
-        ii.
+        ii. About/How It Works
+        iii. Live Classes (display schedule and timings of classes)
+        iv. Instructors (display all instructors, if clicked on, go to their linked social media)
+        v. Blog/Forum (kinda like leetcode discussion)
+        vi. Login tab (should redirect to Login page)
+        vii. Sign Up tab (should redirect to Creating an Account page)
+
   c) Search Functionality
-      - users should be able to search for specific classes
+      - included within Home Page and Live Classes page
+      - users should be able to search for specific classes based on keywords (maybe instructors)
+
   d) Blogging Space (forum section)
-      - kinda like reddit
+      - kinda like leetcode discussion page
       - no pics or videos allowed (would require moderators and all that)
       - just initial posting and comments that follow underneath that
+      - upvotes, downvotes, reporting, comments/replying to comments, rep number (?)
+      - everything should be ranked according to views, upvotes, recent activity
+
   e) Login Page
       redirects to...
-        - User Profiles
-        - Instructor Profiles
+        - User Associated Page
+            i. Live Classes Page should be different from Instructors (should be the same as the Basic Website Outline)
+            ii. User Account Page
+                - their likes/interests, classes they've signed up for, possible suggestions (classes)?, friends list (simple
+                as adding friends, calendar display + invite)
+        - Instructor Associated Page
+            i. Live Classes Page is different from users
+                - should include creating a class
+            ii. Instructor Profile Page
+                - bio/background, what they teach, links to social media, friends list (same as users ish), calendar display (shows
+                what classes they are teaching and at what times)
+        - Admin/Moderator
+            i. has all the powa bby
+
 
   f) Scheduling for classes
-      - whichever classes a person signs up for should be displayed on their user profile
+      - whichever class a person signs up for should be displayed on their user profile
       - should not allow clashing classes (classes that conflict with other classes timewise)
+      - within Live Class section, we should include filters (scroll down keywords i.e. HIIT, yoga, pilates, etc.) also their
+        experience level and equipment (column section)
 
   g) Secure payment method
+      - through paypal
