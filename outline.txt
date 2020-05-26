@@ -1,0 +1,28 @@
+Main Things:
+
+  a) Video chat platform
+      - should be able to have 5 to 10 people at a call simultaneously
+      - User side: instructor's screen should be put on bigger display
+      - Instructor side: the users window should be bigger on their screens
+
+  b) Basic website (doesn't need to be aesthetically pleasing initially)
+      
+      - different pages to include:
+        i. Home Page
+        ii.
+  c) Search Functionality
+      - users should be able to search for specific classes
+  d) Blogging Space (forum section)
+      - kinda like reddit
+      - no pics or videos allowed (would require moderators and all that)
+      - just initial posting and comments that follow underneath that
+  e) Login Page
+      redirects to...
+        - User Profiles
+        - Instructor Profiles
+
+  f) Scheduling for classes
+      - whichever classes a person signs up for should be displayed on their user profile
+      - should not allow clashing classes (classes that conflict with other classes timewise)
+
+  g) Secure payment method
