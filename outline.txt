@@ -54,3 +54,33 @@ Main Things:
 
   g) Secure payment method
       - through paypal
+
+
+
+
+
+
+
+
+
+
+
+
+
+New Project:
+
+Home Screen:
+  - navigation bar on top (segmented part)
+  - cycling background photos (should be large)
+      a) potentially a video in the future
+      b) include very brief description about website "Find all the top workouts here")
+  - Top 5 Featured Section (hottest workouts by popularity)
+  - Blog Promotion (Check out what the community is doing, or ask questions blah blah)
+  - Eventually: Sponsors or any Paid Promotions
+  - Footer
+
+Different Pages:
+  - Sign in Page
+  - Workouts Page
+  - Blog Space
+  
