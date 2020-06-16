@@ -1,8 +1,13 @@
 body {
   margin: 0;
   background: #222;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -38,16 +43,15 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 25px;
+  padding-top: 22px;
 
   position: relative;
 }
 
 nav a {
-  color: #444;
+  color: #000;
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 nav a:hover {
@@ -70,4 +74,89 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.load {
+  animation: slide 2s;
+}
+
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 40s infinite;
+}
+
+.content {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.principal {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.principal h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.principal p {
+  font-size: 20px;
+}
+
+
+
+/* #SLIDESHOW {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideshow 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url('../images/gym.jpg');
+} */
+
+@@keyframes slide {
+  0% {
+    background-image: url('../images/gym.jpg');
+  }
+  20% {
+    background-image: url('../images/gym.jpg');
+  }
+  20.01% {
+    background-image: url('../images/treadmill.jpeg');
+  }
+  40% {
+    background-image: url('../images/treadmill.jpeg');
+  }
+  40.01% {
+    background-image: url('../images/weights.jpeg');
+  }
+  60% {
+    background-image: url('../images/weights.jpeg');
+  }
+  60.01% {
+    background-image: url('../images/lifting.jpeg');
+  }
+  80% {
+    background-image: url('../images/lifting.jpeg');
+  }
+  80.01% {
+    background-image: url('../images/class.jpg');
+  }
+  100% {
+    background-image: url('../images/class.jpg');
+  }
 }
