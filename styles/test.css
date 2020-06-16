@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #313131;
+}
+
+.slider {
+  width: 800px;
+  height: 400px;
+  background: url('../images/class.jpg');
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+
+@keyframes slide {
+  25% {
+    background: url('../images/class.jpg');
+  }
+  50% {
+    background: url('../images/gym.jpg');
+  }
+  75% {
+    background: url('../images/lifting.jpeg');
+  }
+  100% {
+    background: url('../images/treadmill.jpeg');
+  }
+}
