@@ -78,6 +78,8 @@ nav a:hover::before {
 
 .load {
   animation: slide 2s;
+  -moz-animation: slide 2s;
+  -webkit-animation: slide 2s;
 }
 
 .slider {
@@ -87,6 +89,8 @@ nav a:hover::before {
   width: 100%;
   height: 100vh;
   animation: slide 30s infinite;
+  -moz-animation: slide 30s infinite;
+  -webkit-animation: slide 30s infinite;
   animation-timing-function: ease-in-out;
   background-image: url('../images/situps.jpg');
 }
@@ -176,4 +180,96 @@ nav a:hover::before {
   100% {
     background-image: url('../images/situps.jpg');
   }
+}
+
+@-moz-keyframes slide {
+  /* 0% {
+    background-image: url('../images/gym.jpg');
+  }
+  20% {
+    background-image: url('../images/gym.jpg');
+  }
+  20.01% {
+    background-image: url('../images/treadmill.jpeg');
+  }
+  40% {
+    background-image: url('../images/treadmill.jpeg');
+  }
+  40.01% {
+    background-image: url('../images/weights.jpeg');
+  }
+  60% {
+    background-image: url('../images/weights.jpeg');
+  }
+  60.01% {
+    background-image: url('../images/lifting.jpeg');
+  }
+  80% {
+    background-image: url('../images/lifting.jpeg');
+  }
+  80.01% {
+    background-image: url('../images/class.jpg');
+  }
+  100% {
+    background-image: url('../images/class.jpg');
+  } */
+  20% {
+    background-image: url('../images/stretching.jpg');
+  }
+  40% {
+    background-image: url('../images/gymshark.jpg');
+  }
+  60% {
+    background-image: url('../images/cycling.jpg');
+  }
+  80% {
+    background-image: url('../images/weights.jpg');
+  }
+  100% {
+    background-image: url('../images/situps.jpg');
+  }
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 2.1s;
+  -moz-animation-delay: 2.1s;
+  animation-delay: 2.1s;
 }
