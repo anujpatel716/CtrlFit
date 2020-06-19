@@ -283,16 +283,16 @@ nav a:hover::before {
 
 #container {
  position: fixed;
- width: 340px;
- height: 280px;
+ width: 30%;
+ height:30%;
  top: 50%;
  left: 50%;
  margin-top: -140px;
  margin-left: -170px;
- background: #fff;
- background-color:transparent;
+ background: #444;
+ opacity:0.75;
  border-radius: 3px;
- border: 1px solid #ccc;
+ border: 1px solid #444;
  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
  -webkit-animation-name: bounceIn;
  -webkit-animation-fill-mode: both;
@@ -379,8 +379,8 @@ input[type=password]:focus {
  width: 100%;
  height: 69px;
  margin-top: 20px;
- box-shadow: inset 0 1px 1px #fff;
- border-top: 1px solid #ccc;
+ box-shadow: inset 0 1px 1px #444;
+ border-top: 1px solid #444;
  border-bottom-right-radius: 3px;
  border-bottom-left-radius: 3px;
  background-color:transparent
